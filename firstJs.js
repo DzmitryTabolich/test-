@@ -1,8 +1,5 @@
 `use strict`;
 
-var a = 1;
-let b = 2;
+let money = prompt("Ваш бюджет на месяц?");
+let time = prompt("Введите дату в формате YYYY-MM-DD");
 
-var answer = (++a == b);
-
-console.log(answer);
